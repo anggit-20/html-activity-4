@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gambar-2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <style>
+        * {  
+            font-family: "Rubik", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+
+        h1, h2, h3 {
+            margin: 0px;
+        }
+
+        .container {
+            width: 770px;
+            margin: auto;
+            margin-top: 50px;
+        }
+
+        .box {
+            margin: 20px;
+            align-items: center;
+            display: flex;
+            gap: 10px;
+        }
+
+        .kanan {
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+        }
+
+        .kiri {
+            display: inline;
+        }
+
+        .kiri img {
+            width: 250px;
+            height: 250px;
+            justify-content: flex-start;
+            border-radius: 10px;
+        }
+
+        .box2{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .title {
+            justify-content: flex-start;
+        }
+
+        .button {
+            justify-content: flex-end;
+            background-color: rgb(226 244 248);
+            padding: 10px;
+            border-radius: 5px;
+            color: rgb(45 45 255);
+        }
+
+        .icon {
+            width: 30px;
+            height: 30px;
+            overflow: hidden;
+            border-radius: 50%;
+        }
+        .icon img {
+            display: block;
+            width: 100%;
+            
+        }
+
+        .box3 {
+            display: flex;
+            flex-direction: row;
+            margin-top: 15px;
+            gap: 60px;
+        }
+
+        .icon1, .icon2 {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .date {
+            border: 2px dotted rgb(145, 129, 129);
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            width: 210px;
+            padding: 5px;
+        }
+
+        .box5 {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer {
+            justify-content: flex-end;
+            color: rgb(45 45 255);
+            font-size: smaller;
+        }
+
+        .footer img {
+            width: 10px;
+        }
+
+        .box6 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+        .gambar {
+            justify-content: flex-start;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .gambar img {
+            display: block;
+            width: 100%;
+            border-radius: 50%;
+            margin-right: -10px;
+        }
+    </style>
+</head>
+<body>
+    <!--Cntainer-->
+    <div class="container">
+
+        <div class="box">
+            <div class="kiri">
+                <img src="foto.jpg">
+            </div>
+
+            <div class="kanan">
+                <div class="box2">
+                    <div class="title">
+                    <span>Featured</span>
+                    <h2>9 Degree</h2>
+                    </div>
+
+                    <div class="button">
+                        <span>In Process</span>
+                    </div>
+                </div>
+
+                <div class="box3">
+                    <div class="icon1">
+                    <div class="icon">
+                        <img src="pict1.jpg">
+                    </div>
+                    <div class="text">
+                        <span>Manager</span>
+                        <span><b>Robert Fox</b></span>
+                    </div>
+                    </div>
+
+                    <div class="icon2">
+                    <div class="icon">
+                        <img src="pict2.png">
+                    </div>
+
+                    <div class="text">
+                        <span>Budget</span>
+                        <span><b>$64.800</b></span>
+                    </div>
+                    </div>
+
+                </div>
+
+                <div class="box4">
+                    <p>Flat cartoony illustration with vivid unblended
+                       colors and asymmetrical beautiful purple hari lady
+                    </p>
+                </div>
+
+                <div class="box5">
+                    <div class="date">
+                        <span><b>Feb 6, 2021</b></span>
+                        <span>Due Date</span>
+                    </div>
+
+                    <div class="date">
+                        <span><b>$284,900</b></span>
+                        <span>Budget</span>
+                    </div>
+                </div>
+
+                <div class="box6">
+                    <div class="gambar">
+                        <img src="foto1.jpg">
+                        <img src="foto2.jpg">
+                        <img src="foto3.jpg">
+                    </div>
+
+                    <div class="footer">
+                        <span>View Project</span>
+                        <img src="Group 1.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

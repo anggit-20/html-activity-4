@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gambar-1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <style>
+        * {  
+            font-family: "Rubik", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+
+        h1, h2 {
+            margin: 0px;
+        }
+
+        .container {
+            width: 400px;
+            padding: 20px;
+            margin-top: 30px;
+            margin: auto;
+            border-radius: 8px;
+            /*border: solid 2px red;*/
+            box-shadow: 2px 2px 2px 2px rgb(194, 190, 190);
+        }
+
+        .isi {
+            margin: 30px;
+            
+        }
+
+        .title {
+            justify-content: flex-start;
+        }
+
+        .icon-kanan {
+            justify-content: flex-end;
+        }
+
+        .head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .text {
+            justify-content: flex-end;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .foto {
+            justify-content: flex-start;
+        }
+
+        .icon {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .form {
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!--content-->
+        <div class="isi">
+
+            <!--Judul Tampilan-->
+
+            <div class="head">
+                <div class="title">
+                    <h1>Tasks Overview</h1>
+                    <span>Pending 10 tasks</span>
+                </div>
+                <div class="icon-kanan">
+                    <img src="more.png">
+                </div>
+            </div>
+
+            <!--Judul Tampilan Selesai-->
+
+            <!--Badan Tampilan-->
+
+            <div class="form">
+
+                <div class="icon">
+                    <div class="foto">
+                        <img src="icon1.jpg">
+                    </div>
+                    <div class="text">
+                        <span><b>Project Briefing</b></span>
+                        <span>Project Manager</span>
+                    </div>
+                </div>
+
+                <div class="icon">
+                    <div class="foto">
+                        <img src="icon3.png">
+                    </div>
+                    <div class="text">
+                        <span><b>Design</b></span>
+                        <span>Art Director</span>
+                    </div>
+                </div>
+
+                <div class="icon">
+                    <div class="foto">
+                        <img src="icon2.png">
+                    </div>
+                    <div class="text">
+                        <span><b>Fungcional Logics</b></span>
+                        <span>Lead Developer</span>
+                    </div>
+                </div>
+
+                <div class="icon">
+                    <div class="foto">
+                        <img src="icon4.png">
+                    </div>
+                    <div class="text">
+                        <span><b>Development</b></span>
+                        <span>DevOps</span>
+                    </div>
+                </div>
+
+                <div class="icon">
+                    <div class="foto">
+                        <img src="icon5.png">
+                    </div>
+                    <div class="text">
+                        <span><b>Testing</b></span>
+                        <span>QA Managers</span>
+                    </div>
+                </div>
+
+
+            </div>
+            <!--Badan Tampilan Selesai-->
+
+        </div>
+
+    </div>
+</body>
+</html>
